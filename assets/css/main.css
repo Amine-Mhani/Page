@@ -71,12 +71,15 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+#banner{
+	background-size: cover;
+    background-image: url(images-final/ex2.jpg);
+}
 
 /* Basic */
 
 	html {
 		box-sizing: border-box;
-		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -310,7 +313,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 25%;
 		}
 
 		.row > .off-4 {
@@ -2681,7 +2684,7 @@ input, select, textarea {
 	#banner {
 		background-image: url("../../images/amine.jpg");
 		background-position: center center;
-		background-size: cover;
+		/*background-size: cover;*/
 		height: 28em;
 		text-align: center;
 		position: relative;
