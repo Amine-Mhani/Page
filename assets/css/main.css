@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -313,7 +315,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 25%;
+			width: 29%;
 		}
 
 		.row > .off-4 {
@@ -3369,3 +3371,33 @@ input, select, textarea {
 .amine{
 	border-radius: solid 5px black;
 }
+.butlik{
+	background-color: #474747;
+	border-radius: 25px;
+	color: white;
+	text-align: center;
+	margin: 20px;
+	height: 45px;
+	width: 175px;
+	padding: 9px;
+	font-weight: bold;
+}
+.tab{
+	width: 90%;
+	/*border: solid;
+	border-width: 1px;*/
+	margin: auto;
+	padding: 40px;
+}
+tr td:first-child{
+	vertical-align: middle;
+}
+tr td:last-child{
+	padding-left: 50px;
+	vertical-align: middle;
+}
+#Stands{
+	padding-bottom: 40px;
+}
+
+

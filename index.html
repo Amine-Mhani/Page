@@ -9,7 +9,9 @@
 		<title>ENSA EL JADIDA</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -18,41 +20,26 @@
 				<div id="header">
 
 					<!-- Logo -->
-						<h1><a href="ysf.html" id="logo">ENSA <em>EL JADIDA</em></a></h1>
+						<h1><a href="http://www.ensaj.ucd.ac.ma/" id="logo" target="_blanc">ENSA <em>EL JADIDA</em></a></h1>
 
 					<!-- Nav -->
+					
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="index.html">Home</a></li>
-								<!--li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam sed tempus</a></li>
-										<li>
-											<a href="#">Submenu</a>
-											<ul>
-												<li><a href="#">Lorem dolor</a></li>
-												<li><a href="#">Phasellus magna</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam nisl</a></li>
-												<li><a href="#">Veroeros feugiat</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
-									</ul>
-								</li-->
-								<li><a href="left-sidebar.html">Concept</a></li>
-								<li><a href="right-sidebar.html">Intervenants</a></li>
-								<li><a href="two-sidebar.html">Stands</a></li>
-								<li><a href="no-sidebar.html">Let's challenge</a></li>
-								<li><a href="no-sidebar.html">Venue</a></li>
-								<li><a href="no-sidebar.html">Hotels</a></li>
-								<li><a href="no-sidebar.html">Gallery</a></li>
-								<li><a href="#section1">Partenaires</a></li>
+								<li><a href="#Concept">Concept</a></li>
+								<li><a href="#Intervenants">Intervenants</a></li>
+								<li><a href="#Stands">Stands</a></li>
+								<li><a href="left-sidebar.html">Let's challenge</a></li>
+								<li><a href="#Venue">Venue</a></li>
+								<li><a href="#Hotels">Hotels</a></li>
+								<li><a href="#Gallery">Gallery</a></li>
+								<li><a href="#cta">Partenaires</a></li>
+								<li><button class="button alt">Inscription</button></li>
 							</ul>
 						</nav>
+
+				</div>
 
 				</div>
 
@@ -63,7 +50,7 @@
 						<a href="#" class="button">Learn More</a>
 					</header>
 					<script >
-						let a=['images-final/ex1.JPG','images-final/ex2.jpg'];
+						let a=['images-final/ex1.JPG','images-final/ex2.jpg','images-final/ex3.png'];
 						
 						setInterval(()=>{
 							document.getElementById("banner").style.backgroundImage = `url('${a[Math.floor(Math.random()*a.length)]}')`;
@@ -86,7 +73,7 @@
 				</section>
 			<!-- Concept -->
 
-				<section class="wrapper style1">
+				<section class="wrapper style1" id="Concept">
 					<div class="container">
 						<div class="row gtr-200">
 							<div class="col-8 col-12-narrower">
@@ -165,7 +152,7 @@
 					</div>
 				</section>
 			<!-- Posts -->
-				<section class="wrapper style2">
+				<section class="wrapper style2" id="Intervenants">
 					<h1 style="text-align: center;padding-bottom: 20px;font-size: 1.75em;
     letter-spacing: -0.025em;font-weight: 600;
     line-height: 1.75em;"><strong>INTERVENANTS</strong></h1>
@@ -212,17 +199,75 @@
 						</div>
 					</div>
 				</section>
+		<!-- -->
+		<!-- Stands -->
 
+			<section class="wrapper style1" id="Stands"> 
+				<h1 style="text-align: center; padding-bottom: 20px; font-size: 1.75em; letter-spacing: -0.025em; font-weight: 600; line-height: 1.75em;"><strong>STANDS</strong></h1>
+				<table class="tab">
+					<tr>
+						<td><div class="butlik">Qui Expose?</div></td>
+						<td> Les fournisseurs, fabricants, distributeurs et intégrateurs de matières premières, composants, équipements et solutions
+						</td>
+					</tr>
+					<tr>
+						<td><div class="butlik">Qui visite?</div></td>
+						<td> Les fournisseurs, fabricants, distributeurs et intégrateurs de matières premières, composants, équipements et solutions
+						</td>
+					</tr>
+					<tr>
+						<td><div class="butlik">Pourquoi exposer?</div></td>
+						<td>
+							<ul style="list-style-type: disc; position: relative; top: 21px;">
+								<li>Rejoignez toute la communauté réunie en un seul lieu !</li>
+								<li>Générez de nouvelles prises de contacts avec des détenteurs et intégrateurs</li>
+								<li>Profitez de l’unique événement spécialiste dédié aux FabLabs</li>
+								<li>Bénéficiez des multiples opportunités pour échanger et toucher des cibles spécifiques</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td><div class="butlik">Devenez exposant</div></td>
+						<td>veuillez compléter le formulaire et le renvoyer par email Email : festivalfablab@usms.ma «Formulaire de demande de stand pour les exposants industriels</td>
+					</tr>
+				</table>
+			</section>
+				
+    	<!-- -->
 			<!-- CTA -->
 				<section id="cta" class="wrapper style3">
 					<div class="container">
 						<header style="display: flex;">
 							<img style="height:85px; padding-right: 40px;padding-left: 80px;" src="images-final/nov.png"/>
 							<h2 style="padding: auto;margin: auto;">Ready to know about Let's challenge?</h2>
-							<a href="right-sidebar.html" style="width: 180px; height: 45px;padding: auto;margin: auto;" class="button">click here</a>
+							<a href="left-sidebar.html" style="width: 180px; height: 45px;padding: auto;margin: auto;" class="button">click here</a>
 						</header>
 					</div>
 				</section>
+			<!-- LET'S CHALLENGE end -->
+
+				<section id="partner" class="section partner wrapper style1">
+			        <div class="container">
+			            
+			                    <h1 style="text-align: center;padding-bottom: 20px;font-size: 1.75em;letter-spacing: -0.025em;font-weight: 600;line-height: 1.75em;">PARTENAIRES</h1>
+			            
+			            <div class="row">
+			                <div class="col-sm-3">
+			                    <a href="http://www.ucd.ac.ma/" class="partner-box partner-box-1"></a>
+			                </div>
+			                <div class="col-sm-3">
+			                    <a href="https://www.auf.org/maghreb/" class="partner-box partner-box-2"></a>
+			                </div>
+			                <div class="col-sm-3">
+			                    <a href="https://fablabsmaroc.uit.ac.ma/" class="partner-box partner-box-3"></a>
+			                </div>
+			                <div class="col-sm-3">
+			                    <a class="partner-box partner-box-4"></a>
+			                </div>
+			            </div>
+			        </div>
+    			</section>
+<!--
 				<section class="wrapper style1" >
 					<h1 style="text-align: center;padding-bottom: 20px;font-size: 1.75em;
     letter-spacing: -0.025em;font-weight: 600;
@@ -234,42 +279,42 @@
 								<div class="box highlight">
 									<i ><a href="http://www.ucd.ac.ma/
 "><img style="height: 155px;width:210px;" src="images-final/cho.png"></a></i>
-									<!--<h3 style="padding-top:35px;">This Is Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>-->
+									<h3 style="padding-top:35px;">This Is Important</h3>
+									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 								</div>
 							</section>
 							<section class="col-4 col-12-narrower">
 								<div class="box highlight">
 									<i ><img style="height: 180px;width:240px;" src="images-final/let.jpg"></i>
-									<!--<h3 style="padding-top:12px;">This Is Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>-->
+									<h3 style="padding-top:12px;">This Is Important</h3>
+									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 								</div>
 							</section>
 							<section class="col-4 col-12-narrower">
 								<div  class="box highlight">
 									<i><a href="https://www.auf.org/maghreb/
 "><img style="height: 180px;width: 210px;" src="images-final/auf.png"></a></i>
-									<!--<h3 style="padding-top: 10px;" >Also Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>-->
+									<h3 style="padding-top: 10px;" >Also Important</h3>
+									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 								</div>
 							</section>
 							<section class="col-4 col-12-narrower">
 								<div style="padding-top:20px;" class="box highlight">
 									<i><a href="https://fablabsmaroc.uit.ac.ma/ 
 "><img style="height: 140px; width: 140px;" src="images-final/fab.png"></a></i>
-									<!--<h3 style="padding-top: 27px;">Probably Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>-->
+									<h3 style="padding-top: 27px;">Probably Important</h3>
+									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 								</div>
 							</section>
 						</div>
 					</div>
-				</section>
+				</section> -->
 
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
 						<div class="row">
-							<section class="col-3 col-6-narrower col-12-mobilep">
+							<!--section class="col-3 col-6-narrower col-12-mobilep">
 								<h3>Links to Stuff</h3>
 								<ul class="links">
 									<li><a href="#">Mattis et quis rutrum</a></li>
@@ -313,7 +358,17 @@
 										</div>
 									</div>
 								</form>
+							</section-->
+							<section class="col-3 col-6-narrower col-12-mobilep" style="width: 45%;">
+								<h3>UNIVERSITE CHOUAIB DOUKKALI</h3>
+								<p align="justify">ECOLE NATIONALE DES SCIENCES APPLIQUEES
+									Route d'Azemmour, Nationale N°1, ELHAOUZIA BP : 5096 El Jadida 24002 Maroc </p>
+							    <h3>Contact</h3>
+								<p>Tél : 05 23 34 44 47 / 05 23 34 44 48</p>
+								<p>Fax : 05 23 34 44 49</p>
+								<p>Email : festivalfablab@ucd.ac.ma</p>
 							</section>
+							<section class="col-6 col-12-mobilep"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13346.361186696968!2d-8.4341116!3d33.2510353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8dbb36f4b2d2cbc!2sENSA%20-%20El%20Jadida!5e0!3m2!1sfr!2sma!4v1647646769584!5m2!1sfr!2sma" width="570" height="370" style="border:0;" allowfullscreen="" loading="lazy"></iframe></section>
 						</div>
 					</div>
 
@@ -344,6 +399,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				window.scrollTo({top : 0,behavior:"smooth"});
+			</script>
 
 	</body>
 </html>
