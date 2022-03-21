@@ -3399,5 +3399,31 @@ tr td:last-child{
 #Stands{
 	padding-bottom: 40px;
 }
+.inscpdiv{
+	color: white;
+	line-height: 1.7em;
+	font-weight: lighter;
+}
+.divider{
+	background-color: rgb(158, 154, 154);
+	border:solid rgb(158, 154, 154);
+	border-width: 1px;
+	padding: 0px;
+}
+.boards{
+	background-color: #555555;
+	border-radius: 8px;
+	padding: 3px 30px;
+	height: 460px;
+	margin: 50px;
+	width: 25%;
+	position: relative;
+}
+#tlbut1{
+	margin-top: 11%;
+}
+#tlbut2{
+	margin-top: 34%;
+}
 
 
