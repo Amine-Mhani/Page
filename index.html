@@ -38,13 +38,13 @@
 								<li class="current"><a href="index.html">Home</a></li>
 								<li><a href="#Concept">Concept</a></li>
 								<li><a href="#Intervenants">Intervenants</a></li>
-								<li><a href="#Stands">Stands</a></li>
+								<li><a href="#faq">Stands</a></li>
 								<li><a href="left-sidebar.html">Let's challenge</a></li>
 								<li><a href="#Venue">Venue</a></li>
 								<li><a href="#Hotels">Hotels</a></li>
 								<li><a href="#Gallery">Gallery</a></li>
 								<li><a href="#cta">Partenaires</a></li>
-								<li><button class="button alt" id="inscbut">Inscription</button></li>
+								<li><a href="#Stands" style="text-decoration: none;"><button class="button alt" id="inscbut" onclick="toInscription()">Inscription</button></a></li>
 							</ul>
 						</nav>
 
@@ -73,7 +73,7 @@
 
 			<!-- Gigantic Heading -->
 				<section class="wrapper style2">
-					<div class="container">
+					<div class="container wow fadeInUp">
 						<header class="major">
 							<h2>4<sup>ème</sup>EDITION DU FESTIVAL DES FABLABS UNIVERSITAIRES</h2><h3>7<sup>ème</sup> EDITION DE LA COMPETITION INTERNATIONALE DE L'INNOVATION «LET'S CHALLENGE»</h3>
 							<p> SOUS LE THEEMS<strong>«FABATHON: MARATHON DE L'INNOVATION»</strong><br>29-30 NOVEMBRE 2022, EL JADIDA, MAROC<strong> ENSA</strong></p>
@@ -165,7 +165,7 @@
 					<h1 style="text-align: center;padding-bottom: 20px;font-size: 1.75em;
     letter-spacing: -0.025em;font-weight: 600;
     line-height: 1.75em;"><strong>INTERVENANTS</strong></h1>
-					<div class="container">
+					<div class="container" style="background-color: transparent;">
 						<div class="row">
 							<section class="col-6 col-12-narrower wow zoomIn">
 								<div class="box post">
@@ -210,7 +210,7 @@
 				</section>
 		<!-- -->
 		
-			<section id="faq" class="faq section-bg">
+			<section id="faq" class="faq section-bg wrapper style1">
 				<div class="container">
 		  
 					<h1 style="text-align: center; padding-bottom: 20px; font-size: 1.75em; letter-spacing: -0.025em; font-weight: 600; line-height: 1.75em; margin-top: 5%;"><strong>STANDS</strong></h1>
@@ -271,7 +271,7 @@
 					
 						<div class="boxt"><img style="height:85px; padding-right: 40px;padding-left: 40px;" src="images-final/nov.png"/></div>
 						<div class="boxt wow zoomIn"><h2 style="padding: auto;margin: auto;">Ready to know about Let's challenge?</h2></div>
-						<div class="boxt"><a href="left-sidebar.html" style="width: 180px; height: 45px;padding: auto;margin: auto;" class="button">click here</a></div>
+						<div class="boxt"><a href="left-sidebar.html" style="width: 180px; height: 45px;padding: auto;margin: 8% auto; " class="button">click here</a></div>
 						<style >
 							.boxt{
 								width: 33.3333%;
@@ -431,25 +431,56 @@
 
 				<!-- LET'S CHALLENGE end -->
 
-				<section id="partner" class="section partner wrapper style1">
-			        <div class="containerr">
-			                <h1 style="text-align: center;padding-bottom: 20px;font-size: 1.75em;letter-spacing: -0.025em;font-weight: 600;line-height: 1.75em;">PARTENAIRES</h1>
-			            <div class="rowy">
-			                <div class="col-sm-3">
-			                    <a href="http://www.ucd.ac.ma/" class="partner-box partner-box-1"></a>
-			                </div>
-			                <div class="col-sm-3">
-			                    <a href="https://www.auf.org/maghreb/" class="partner-box partner-box-2"></a>
-			                </div>
-			                <div class="col-sm-3">
-			                    <a href="https://fablabsmaroc.uit.ac.ma/" class="partner-box partner-box-3"></a>
-			                </div>
-			                <div class="col-sm-3">
-			                    <a class="partner-box partner-box-4"></a>
-			                </div>
-			            </div>
-			        </div>
-    			</section>
+				<div class="page-section wrapper style1">
+					<div class="container">
+					  <h1 style="text-align: center;padding-bottom: 20px;font-size: 1.75em;letter-spacing: -0.025em;font-weight: 600;line-height: 1.75em;">PARTENAIRES</h1>
+		
+					  <div class="owl-carousel wow fadeInUp" id="doctorSlideshow" style="padding-top: 15px;">
+						
+						<div class="item">
+						  <div class="card-doctor">
+							
+							  
+							<a href="http://www.ucd.ac.ma/" class="partner-box partner-box-1" target="_blanc"><img src="assets/assets/images/partner/cho.png" style="height: 250px; width:240px;" alt="" ></a>
+							
+							
+						  </div>
+						</div>
+						<div class="item">
+						  <div class="card-doctor">
+							
+							<a href="https://www.auf.org/maghreb/" class="partner-box partner-box-2" target="_blanc"><img src="assets/assets/images/partner/auf.png" style="height: 250px; width:260px;" alt=""></a>
+							  
+							
+						  </div>
+						</div>
+						<div class="item">
+						  <div class="card-doctor">
+							
+							<a href="https://fablabsmaroc.uit.ac.ma/" class="partner-box partner-box-3" target="_blanc"><img src="assets/assets/images/partner/fab.png" style="height: 250px; width:240px;" alt=""></a>
+							  
+							
+							
+						  </div>
+						</div>
+						<div class="item" >
+						  <div class="card-doctor" style="width: 500px;">
+							
+							 <a href="left-sidebar.html"><img src="assets/assets/images/partner/let.jpg" style="height: 250px; width:280px;" alt=""></a>
+							  
+							<style>
+								.owl-prev,.owl-next{
+									width: 20%;
+									color: bisque;
+								}
+							</style>
+							
+						  </div>
+						  
+						</div>
+					  </div>
+					</div>
+				  </div>
 
 			<!-- Footer -->
 				<section id="footer">
@@ -496,9 +527,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
+			<!--script>
 				window.scrollTo({top : 0,behavior:"smooth"});
-			</script>
+			</script-->
 			<script src="assets/assets/js/jquery-3.5.1.min.js"></script>
 
 			<script src="assets/assets/js/bootstrap.bundle.min.js"></script>
@@ -507,7 +538,7 @@
 
 			<script src="assets/assets/vendor/wow/wow.min.js"></script>
 
-			<script src="assets/assets/js/theme.js"></script>
+			<script src="assets/assets/js/theme.js"></script>fa
 			<script>
 				function download(){
 					window.open('https://drive.google.com/file/d/1vgJEx1JxLSKmRIsoua3x3Jn87DYN5pct/view', '_blank');
