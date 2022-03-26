@@ -3368,6 +3368,9 @@ input, select, textarea {
 			}
 
 	}
+
+/*---------------------Addons------------------*/
+
 .amine{
 	border-radius: solid 5px black;
 }
@@ -3418,6 +3421,7 @@ tr td:last-child{
 	margin: 50px;
 	width: 25%;
 	position: relative;
+	box-sizing: border-box;
 }
 #tlbut1{
 	margin-top: 11%;
@@ -3425,5 +3429,63 @@ tr td:last-child{
 #tlbut2{
 	margin-top: 34%;
 }
+.boxo{
+	color: white;
+	line-height: 1.7em;
+	font-weight: lighter;
+	background-color: #555555;
+	border-radius: 8px;
+	height: auto;
+	margin: 50px;
+	box-sizing: border-box;
+	border: solid;
+	width: 25%;
+	padding: 3px 30px 20px 30px;
+}
+.bloqs{
+	text-align: center;
+}
+.containere{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+	/*add responsive media quaries*/
+
+@media screen and (max-width:1200px){
+	.boxo{
+		width: 90%;
+	}
+}
+@media screen and (max-width:1200px){
+	.boxo{
+		width: 90%;
+	}
+}
+.rowy {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+  }
+@media screen and (max-width:1200px){
+	.col-sm-3{
+		width: 90%;
+	}
+}
+@media screen and (max-width:1200px){
+	.col-sm-3{
+		width: 90%;
+	}
+}
+
+
+
+
 
 
