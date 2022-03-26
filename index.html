@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>ENSA EL JADIDA</title>
+		<title>FABLABS Event</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/assets/css/main.css">
@@ -14,6 +14,10 @@
 		  <link rel="stylesheet" href="assets/assets/vendor/animate/animate.css">
 
 		  <link rel="stylesheet" href="assets/assets/css/theme.css">
+		 <link rel="stylesheet" href="assets/vendor/boxicons/css/animations.css">
+		 <link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.css">
+		 <link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.min.css">
+		 <link rel="stylesheet" href="assets/vendor/boxicons/css/transformations.css">
 
 		
 	</head>
@@ -40,7 +44,7 @@
 								<li><a href="#Hotels">Hotels</a></li>
 								<li><a href="#Gallery">Gallery</a></li>
 								<li><a href="#cta">Partenaires</a></li>
-								<li><button class="button alt">Inscription</button></li>
+								<li><button class="button alt" id="inscbut">Inscription</button></li>
 							</ul>
 						</nav>
 
@@ -51,8 +55,8 @@
 			<!-- Banner -->
 				<section id="banner">
 					<header>
-						<h2>FABATHON : <em>MARATHON DE L'INNOVATION</em></h2>
-						<a href="left-sidebar.html" class="button">Learn More</a>
+						<h2 class="wow fadeInLeft">FABATHON : <em>MARATHON DE L'INNOVATION</em></h2>
+						<a href="#" class="button wow fadeInRight">Learn More</a>
 					</header>
 					<script >
 						let a=['images-final/ex1.JPG','images-final/ex2.jpg','images-final/ex3.png'];
@@ -88,11 +92,11 @@
 
 										<article>
 											<header>
-												<h2 class="conthed">Content</h2>
+												<h2 class="conthed wow zoomIn">Content</h2>
 											</header>
 
 
-											<p align="justify">Le festival des FabLabs est un évènement annuel organisé dans le cadre du projet de l'Agence
+											<p align="justify" class="wow fadeInLeft">Le festival des FabLabs est un évènement annuel organisé dans le cadre du projet de l'Agence
                                                 Universitaire de la Francophonie (AUF). Il regroupe les Fablabs des universités publiques
                                                 marocaines. Ces FabLabs se sont regroupés, avec le soutien de l'AUF, dans le Réseau des Fablabs
                                                 Universitaires du Maroc (RUMAF).
@@ -124,8 +128,8 @@
 
 									<!-- Sidebar -->
 
-										<h2 class="conthed">Temps forts 2022</h2>
-                                        <ul>
+										<h2 class="conthed wow zoomIn">Temps forts 2022</h2>
+                                        <ul class="wow fadeInRight">
                                             <li>
                                                 Conférences animées par des personnalités du
                                                 domaine.
@@ -163,7 +167,7 @@
     line-height: 1.75em;"><strong>INTERVENANTS</strong></h1>
 					<div class="container">
 						<div class="row">
-							<section class="col-6 col-12-narrower">
+							<section class="col-6 col-12-narrower wow zoomIn">
 								<div class="box post">
 									<a href="#" class="image left"><img src="images-final/page-03_Photo-speaker-1.png" alt="" /></a>
 									<div class="inner">
@@ -172,7 +176,7 @@
 									</div>
 								</div>
 							</section>
-							<section class="col-6 col-12-narrower">
+							<section class="col-6 col-12-narrower wow zoomIn">
 								<div class="box post">
 									<a href="#" class="image left"><img src="images-final/page-03_Photo-speaker-2.png" alt="" /></a>
 									<div class="inner">
@@ -183,7 +187,7 @@
 							</section>
 						</div>
 						<div class="row">
-							<section class="col-6 col-12-narrower">
+							<section class="col-6 col-12-narrower wow zoomIn">
 								<div class="box post">
 									<a href="#" class="image left"><img src="images-final/page-03_Photo-speaker-3.png" alt="" /></a>
 									<div class="inner">
@@ -192,7 +196,7 @@
 									</div>
 								</div>
 							</section>
-							<section class="col-6 col-12-narrower">
+							<section class="col-6 col-12-narrower wow zoomIn">
 								<div class="box post">
 									<a href="#" class="image left"><img src="images-final/page-03_Photo-speaker-4.png" alt="" /></a>
 									<div class="inner">
@@ -205,45 +209,68 @@
 					</div>
 				</section>
 		<!-- -->
-		<!-- Stands -->
-
-			<section class="wrapper style1" id="Stands"> 
-				<h1 style="text-align: center; padding-bottom: 20px; font-size: 1.75em; letter-spacing: -0.025em; font-weight: 600; line-height: 1.75em;"><strong>STANDS</strong></h1>
-				<table class="tab">
-					<tr>
-						<td><div class="butlik">Qui Expose?</div></td>
-						<td> Les fournisseurs, fabricants, distributeurs et intégrateurs de matières premières, composants, équipements et solutions
-						</td>
-					</tr>
-					<tr>
-						<td><div class="butlik">Qui visite?</div></td>
-						<td> Les fournisseurs, fabricants, distributeurs et intégrateurs de matières premières, composants, équipements et solutions
-						</td>
-					</tr>
-					<tr>
-						<td><div class="butlik">Pourquoi exposer?</div></td>
-						<td>
-							<ul style="list-style-type: disc; position: relative; top: 21px;">
-								<li>Rejoignez toute la communauté réunie en un seul lieu !</li>
-								<li>Générez de nouvelles prises de contacts avec des détenteurs et intégrateurs</li>
-								<li>Profitez de l’unique événement spécialiste dédié aux FabLabs</li>
-								<li>Bénéficiez des multiples opportunités pour échanger et toucher des cibles spécifiques</li>
+		
+			<section id="faq" class="faq section-bg">
+				<div class="container">
+		  
+					<h1 style="text-align: center; padding-bottom: 20px; font-size: 1.75em; letter-spacing: -0.025em; font-weight: 600; line-height: 1.75em; margin-top: 5%;"><strong>STANDS</strong></h1>
+					<p align="center" >Les questions les plus fréquentes que vous pouvez avoir à propos de l'evenement <b>FABLABS 2022</b></p>
+		  
+				  <div class="faq-list">
+					<ul>
+					  <li data-aos="fade-up" class="wow fadeInLeft">
+						<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq-list-1">Qui Expose? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						<div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+						  <p>
+							Les fournisseurs, fabricants, distributeurs et intégrateurs de matières premières, composants, équipements et solutions
+						  </p>
+						</div>
+					  </li>
+		  
+					  <li data-aos="fade-up" data-aos-delay="100" class="wow fadeInRight" style="animation-delay: 0.1s;">
+						<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Qui visite? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						<div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+						  <p>
+							Les fournisseurs, fabricants, distributeurs et intégrateurs de matières premières, composants, équipements et solutions
+						  </p>
+						</div>
+					  </li>
+		  
+					  <li data-aos="fade-up" data-aos-delay="200" class="wow fadeInLeft" style="animation-delay: 0.2s;">
+						<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Pourquoi exposer? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						<div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+							<ul style="list-style-type: disc;">
+								<li class="stali">Rejoignez toute la communauté réunie en un seul lieu !</li>
+								<li class="stali">Générez de nouvelles prises de contacts avec des détenteurs et intégrateurs</li>
+								<li class="stali">Profitez de l’unique événement spécialiste dédié aux FabLabs</li>
+								<li class="stali">Bénéficiez des multiples opportunités pour échanger et toucher des cibles spécifiques</li>
 							</ul>
-						</td>
-					</tr>
-					<tr>
-						<td><div class="butlik">Devenez exposant</div></td>
-						<td>veuillez compléter le formulaire et le renvoyer par email Email : festivalfablab@usms.ma «Formulaire de demande de stand pour les exposants industriels</td>
-					</tr>
-				</table>
-			</section>
+						</div>
+					  </li>
+		  
+					  <li data-aos="fade-up" data-aos-delay="300" class="wow fadeInRight" style="animation-delay: 0.3s;">
+						<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Devenez exposant <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						<div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+						  <p>
+							veuillez compléter le formulaire et le renvoyer par email Email : festivalfablab@usms.ma «Formulaire de demande de stand pour les exposants industriels
+						  </p>
+						</div>
+					  </li>
+		  
+		  
+					</ul>
+				  </div>
+		  
+				</div>
+			  </section><!-- End Frequently Asked Questions Section -->
+		  
 
 			<!-- CTA -->
 			<section id="cta" class="wrapper style3">
 				<div class="container" style="width:100%;height: auto; display: flex;flex-direction: row; justify-content: space-around; flex-flow: wrap;">
 					
 						<div class="boxt"><img style="height:85px; padding-right: 40px;padding-left: 40px;" src="images-final/nov.png"/></div>
-						<div class="boxt"><h2 style="padding: auto;margin: auto;">Ready to know about Let's challenge?</h2></div>
+						<div class="boxt wow zoomIn"><h2 style="padding: auto;margin: auto;">Ready to know about Let's challenge?</h2></div>
 						<div class="boxt"><a href="left-sidebar.html" style="width: 180px; height: 45px;padding: auto;margin: auto;" class="button">click here</a></div>
 						<style >
 							.boxt{
@@ -269,53 +296,32 @@
 			<section class="wrapper style2" id="Stands">
 				<h1 style="text-align: center; padding-bottom: 20px; font-size: 1.75em; letter-spacing: -0.025em; font-weight: 600; line-height: 1.75em;"><strong>INSCRIPTION</strong></h1>
 				<div class="containere" style="text-align: center; width: 100%; display: inline-flex;">
-					<div class="boxo">
+					<div class="boxo wow fadeInUp">
 						<h5 style="margin-top: 20px; color: white;">FORMULAIRE DE PRESENTATION DE PROJET</h5>
 						<hr class="divider">
 						<p align="justify" class="inscpdiv">
 							Chers participants, veuillez télécharger et remplir votre formulaire de candidature  « <em> Let's Challenge 7.0 </em> ». Merci de nous retourner le formulaire dûment rempli à l’adresse électronique suivante : <a href="#">festivalfablab@usms.ma</a>
 						</p>
-						<button class="button" id="tlbut1">Télècharger</button>
+						<button class="button" id="tlbut1" onclick="download()">Télècharger</button>
 					</div>
-					<div class="boxo">
+					<div class="boxo wow fadeInUp">
 						<h5 style="margin-top: 20px; color: white;">FORMULAIRE DES FALABS UNIVERSITAIRES</h5>
 						<hr class="divider">
 						<p align="justify" class="inscpdiv">
 							Pour les Fablabs universitaires, veuillez télécharger et envoyer le formulaire d’inscription dûment rempli à l’adresse électronique suivante : <a href="#">festivalfablab@usms.ma</a>
 						</p>
-						<button class="button" id="tlbut2">Télècharger</button></div>
-					<div class="boxo">
+						<button class="button" id="tlbut2" onclick="download()">Télècharger</button></div>
+					<div class="boxo wow fadeInUp">
 						<h5 style="margin-top: 20px; color: white;">FORMULAIRE DES PARTENAIRES SOCIO-ECONOMIQUES</h5>
 						<hr class="divider">
 						<p align="justify" class="inscpdiv">
 							Pour réserver un stand et exposer vos produits, télécharger et compléter le formulaire de demande de stand. Vous pouvez nous retourner votre formulaire, dûment rempli, par email à l’adresse électronique suivante :  <a href="#">festivalfablab@usms.ma</a>
 						</p>
-						<button class="button" id="tlbut3">Télècharger</button>
+						<button class="button" id="tlbut3" onclick="download()">Télècharger</button>
 					</div>
 				</div>
 			</section>
 				
-    	<!-- -->
-
-
-				<!--section class="wrapper style2">
-					<div class="containere">
-						<div class="boxo">
-							<h5 class="bloqs">FORMULAIRE DE PRESENTATION DE PROJET</h5>
-							<p>Chers participants, veuillez télécharger et remplir votre formulaire de candidature  « <em> Let's Challenge 7.0 </em> ». Merci de nous retourner le formulaire dûment rempli à l’adresse électronique suivante : <a href="#">festivalfablab@usms.ma</a></p>
-						</div>
-						<div class="boxo">
-							<h5 class="bloqs">FORMULAIRE DES FALABS UNIVERSITAIRES</h5>
-							<p>Pour les Fablabs universitaires, veuillez télécharger et envoyer le formulaire d’inscription dûment rempli à l’adresse électronique suivante : <a href="#">festivalfablab@usms.ma</a></p>
-						</div>
-						<div class="boxo">
-							<h5 class="bloqs">FORMULAIRE DES PARTENAIRES SOCIO-ECONOMIQUES</h5>
-							<p>Pour réserver un stand et exposer vos produits, télécharger et compléter le formulaire de demande de stand. Vous pouvez nous retourner votre formulaire, dûment rempli, par email à l’adresse électronique suivante :  <a href="#">festivalfablab@usms.ma</a></p>
-						</div>
-					</div>
-				</section-->
-
-		<!-- -->
 
 				<section style="background-color: #7393B3;" id="speakers" class="section speakers">
 					<div class="container" >
@@ -331,7 +337,7 @@
 							<div class="col-md-4">
 								<div class="speaker">
 			
-									<figure >
+									<figure class="wow zoomIn">
 										<a href="https://www.booking.com/hotel/ma/centre-ville.fr.html"><img alt="" class="img-responsive center-block" src="images/lastminute.jpeg" width="300" height="300"></a>
 									</figure>
 			
@@ -347,7 +353,7 @@
 							<div class="col-md-4">
 								<div class="speaker">
 			
-									<figure>
+									<figure class="wow zoomIn">
 										<a href="https://www.booking.com/hotel/ma/zephyr-mazagan.fr.html"><img alt="" class="img-responsive center-block" src="images/Zephyr-visu-1.jpeg" width="300" height="300"></a>
 									</figure>
 			
@@ -363,7 +369,7 @@
 							<div class="col-md-4">
 								<div class="speaker">
 			
-									<figure>
+									<figure class="wow zoomIn">
 										<a href="https://www.booking.com/hotel/ma/mazagan-beach-resort.fr.html"><img alt="" class="img-responsive center-block" src="images/mazagan.jpeg" width="300" height="300"></a>
 									</figure>
 			
@@ -381,7 +387,7 @@
 			
 								<div class="speaker">
 			
-									<figure>
+									<figure class="wow zoomIn">
 										<a href="https://www.booking.com/hotel/ma/ibis-moussafir-el-jadida.fr.html"><img alt="" class="img-responsive center-block" src="images/ibis.jpeg" width="300" height="300"></a>
 									</figure>
 			
@@ -396,7 +402,7 @@
 			
 								<div class="speaker">
 			
-									<figure>
+									<figure class="wow zoomIn">
 										<a href="https://www.booking.com/hotel/ma/sofitel-eljadida.fr.html"><img alt="" class="img-responsive center-block" src="images/Pullman-mazagan.jpeg" width="300" height="300"></a>
 									</figure>
 			
@@ -411,7 +417,7 @@
 			
 							<div class="col-md-4">
 								<div class="speaker">
-									<figure>
+									<figure class="wow zoomIn">
 										<a href="https://www.kayak.fr/El-Jadida-Hotels-Hotel-El-Morabitine.134518.ksp"><img alt="" class="img-responsive center-block" src="images/CMN_MORA-exter-1.jpeg" width="300" height="300"></a>
 									</figure>
 									<h4>El Morabitine Hotel</h4>
@@ -490,9 +496,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<!--script>
+			<script>
 				window.scrollTo({top : 0,behavior:"smooth"});
-			</script-->
+			</script>
 			<script src="assets/assets/js/jquery-3.5.1.min.js"></script>
 
 			<script src="assets/assets/js/bootstrap.bundle.min.js"></script>
@@ -502,6 +508,27 @@
 			<script src="assets/assets/vendor/wow/wow.min.js"></script>
 
 			<script src="assets/assets/js/theme.js"></script>
+			<script>
+				function download(){
+					window.open('https://drive.google.com/file/d/1vgJEx1JxLSKmRIsoua3x3Jn87DYN5pct/view', '_blank');
+				}
+			</script>
+			<script>
+				var coll = document.getElementsByClassName("collapsed");
+				var i;
+				
+				for (i = 0; i < coll.length; i++) {
+				  coll[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.display === "block") {
+					  content.style.display = "none";
+					} else {
+					  content.style.display = "block";
+					}
+				  });
+				}
+			</script>
 
 	</body>
 </html>
